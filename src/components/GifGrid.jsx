@@ -1,4 +1,3 @@
-
 import PropTypes from 'prop-types';
 
 import { GifItem } from "./GifItem";
@@ -37,5 +36,5 @@ export const GifGrid = ({ category }) => {
 
 
 GifGrid.propTypes = {
-    category: PropTypes.string,
+    category: PropTypes.string.isRequired,
 }

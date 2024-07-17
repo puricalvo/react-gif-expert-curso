@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 
 
-
-
 export const GifItem = ({ title, url }) => {
 
     
@@ -17,8 +15,8 @@ export const GifItem = ({ title, url }) => {
 }
 
 GifItem.propTypes = {
-    title: PropTypes.string,
-    url: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
 }
 
 
